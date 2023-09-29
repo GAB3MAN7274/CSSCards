@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div class="card area">
+<div class="card-area">
 <div class="card">
     <div class="info">
         <div class="details">
@@ -23,14 +23,103 @@
              <div class="button call">Call</div>
     </div>
 </div>
+
+    <div class="card">
+        <div class="info">
+            <div class="details">
+                <div class="name"> Arthur Morgen </div>
+                <div class="job"> Landscape gardener </div>
+            </div>
+            <div class="avatar-container">
+                <img class="avatar" src="data:image/jpeg;base64,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" alt="person">
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button email">Email</div>
+            <div class="button call">Call</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="info">
+            <div class="details">
+                <div class="name"> Javier Escuella </div>
+                <div class="job"> Bank manager</div>
+            </div>
+            <div class="avatar-container">
+                <img class="avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzpboCtmqRTsS8NGCVcNyVjmXRQZ5KKSmYw78xOMRT8QRDSi3YJDf7Iy56oJmqFbljIOM&usqp=CAU">
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button email">Email</div>
+            <div class="button call">Call</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="info">
+            <div class="details">
+                <div class="name"> Hosea Matthews </div>
+                <div class="job"> Veterinary surgeon</div>
+            </div>
+            <div class="avatar-container">
+                <img class="avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRMXm8OrXozZjJ9AiTI5TM0FNtaY7EmlOY0A&usqp=CAU">
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button email">Email</div>
+            <div class="button call">Call</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="info">
+            <div class="details">
+                <div class="name"> Dutch van der Linde </div>
+                <div class="job"> Soldier</div>
+            </div>
+            <div class="avatar-container">
+                <img class="avatar" src="https://cdn.wccftech.com/wp-content/uploads/2018/09/WCCFreddeadredemption25.jpg">
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button email">Email</div>
+            <div class="button call">Call</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="info">
+            <div class="details">
+                <div class="name"> Micah Bell</div>
+                <div class="job"> Lighthouse keeper</div>
+            </div>
+            <div class="avatar-container">
+                <img class="avatar" src="https://i.ebayimg.com/images/g/UqEAAOSwHOhkKp0Q/s-l1200.webp">
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button email">Email</div>
+            <div class="button call">Call</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="info">
+            <div class="details">
+                <div class="name"> Lenny Summers </div>
+                <div class="job"> Property developer</div>
+            </div>
+            <div class="avatar-container">
+                <img class="avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtlFij6KACpocpTaqzOvI6ztVg8QJtHc8ZcvRtJwVqythLun0sUlBIGm1DsJCypTB7gAA&usqp=CAU">
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button email">Email</div>
+            <div class="button call">Call</div>
+        </div>
+    </div>
 </div>
-
-
-
-
-
-
-
 
 
 
